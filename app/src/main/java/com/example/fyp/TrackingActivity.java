@@ -88,7 +88,7 @@ public class TrackingActivity extends Fragment {
 
     // Inner class to store training data
     private static class TrainingData {
-        private final String date; // Training date
+        private final String date;
         private final String action; // Action name (e.g., Squat, Push-Up)
         private final int reps; // Number of repetitions
         private final int correctness; // Correctness percentage
